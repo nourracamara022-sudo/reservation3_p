@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 20px;
+}
+
+.conteneur {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.carte {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #253858;
+    color: white;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bouton-supprimer {
+    background: #dc2626;
+}
+
+/* Fenêtre pop-up */
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: #0008;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-contenu {
+    position: relative;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.popup-contenu label,
+.popup-contenu input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.fermer-popup {
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
